@@ -1,0 +1,19 @@
+#workspaces button {
+  padding: 0 5px;
+  background-color: #434C5E;
+  color: #ffffff;
+}
+
+#workspaces button:hover {
+  background: #2E3440;
+}
+
+#workspaces button.focused {
+  background-color: #64727D;
+}
+
+window#waybar {
+  background: rgb(76, 86, 106);
+  opacity: .85;
+  color: #FFF;
+}
