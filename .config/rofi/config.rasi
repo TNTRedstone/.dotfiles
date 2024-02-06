@@ -1,24 +1,10 @@
+/** Basic config file **/
+
 configuration {
-    font: "Envy Code R 14";
-    line-margin: 14;
-
-    display-ssh:    "";
-    display-run:    "";
-    display-drun:   "";
-    display-window: "";
-    display-combi:  "";
-    show-icons:     true;
+  show-icons: true;
+  icon-theme: "Tela circle nord dark";
+  display-drun: "";
+  display-window: "﩯 ";
+  display-combi: "  ";
 }
-
-
-@theme "~/.config/rofi/nord.rasi"
-
-listview {
-	lines: 9;
-	columns: 1;
-}
-
-window {
-	width: 30%;
-}
-
+@theme "themes/sidetab-nord.rasi"
