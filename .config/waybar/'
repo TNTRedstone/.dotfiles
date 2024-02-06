@@ -1,23 +1,23 @@
-@define-color bg-hover #f28668;
-@define-color bg #0b0e14;
-@define-color blue #73b8ff;
-@define-color sky #95e6cb;
-@define-color red #f07178;
-@define-color pink #f28779;
-@define-color lavender #d2a6ff;
-@define-color rosewater #f07178;
-@define-color flamingo #f07178;
-@define-color fg #bfbdb6;
-@define-color green #7fd962;
-@define-color active-green #aad94c;
-@define-color dark-fg #787bb0;
-@define-color peach #f2966b;
-@define-color border @lavender;
-@define-color gray2 #cccac2;
-@define-color black4 #0d1017;
-@define-color black3 #131721;
-@define-color maroon #d95757;
-@define-color yellow #FF8F40;
+@define-color bg-hover #81A1C1;  /* Hover blue */
+@define-color bg #2E3440;     /* Background dark blue */
+@define-color blue #88C0D0;    /* Light blue */
+@define-color sky #8FBCBB;    /* Lightest blue (Nord's base07) */
+@define-color red #BF616A;     /* Red */
+@define-color pink #D08770;    /* Pink */
+@define-color lavender #5E81AC;  /* Nord's base0A */
+@define-color rosewater #BF616A; /* Same as red */
+@define-color flamingo #BF616A;  /* Same as red */
+@define-color fg #D8DEE9;      /* Foreground gray */
+@define-color green #A3BE8C;    /* Green */
+@define-color active-green #C3E88D; /* Lighter green */
+@define-color dark-fg #4C566A;   /* Darker foreground gray */
+@define-color peach #D08770;    /* Pink */
+@define-color border @lavender; /* Using lavender as border */
+@define-color gray2 #434C5E;    /* Darker gray */
+@define-color black4 #3B4252;   /* Darkest gray */
+@define-color black3 #4C566A;   /* Dark gray */
+@define-color maroon #BF616A;   /* Red */
+@define-color yellow #EBCB8B;   /* Yellow */
 
 * {
   min-height: 0;

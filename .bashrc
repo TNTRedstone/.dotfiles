@@ -113,9 +113,9 @@ alias svi='sudo nvim'
 
 # Change directory aliases
 alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
+alias ....='cd ../..'
+alias ......='cd ../../..'
+alias ........='cd ../../../..'
 
 alias ls='eza --icons -a --group-directories-first'
 
