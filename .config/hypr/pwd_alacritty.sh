@@ -1,2 +1,1 @@
-#!/bin/bash
-alacritty --working-directory "$(pwd)" &
+../../.dotfiles/.config/hypr/pwd_alacritty.sh
