@@ -1,5 +1,4 @@
 @define-color bg-hover #f28668;
-@define-color lbg #131721;
 @define-color bg #0b0e14;
 @define-color blue #73b8ff;
 @define-color sky #95e6cb;
@@ -44,7 +43,7 @@ tooltip {
 	border-radius: 7px;
 	border-bottom: 2px solid @bg;
 	border-right: 2px solid @bg;
-	background-color: @yellow;
+	background-color: @fg;
 	color: @bg;
 }
 
@@ -55,7 +54,7 @@ window#waybar.empty #window {
 }
 
 window#waybar {
-  background-color:transparent;
+  background-color: transparent;
   color: @lavender;
 }
 
@@ -80,7 +79,7 @@ window#waybar {
   padding-left: 1px;
   padding-right: 1px;
   background-color: @bg;
-  color: @fg;
+  color: @bg;
 }
 
 #workspaces button.active {
@@ -149,7 +148,7 @@ window#waybar {
     padding-left: 10px;
     padding-right: 12px;
     border-radius: 7px;
-    background-color: @rosewater;
+    background-color: @fg;
 
 }
 
@@ -173,7 +172,7 @@ window#waybar {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 7px;
-  color: @fg;
+  color: @lavender;
   background-color: @bg;
 }
 
@@ -230,7 +229,7 @@ window#waybar {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 7px;
-  color: @fg;
+  color: @lavender;
   background-color: @bg;
 }
 
