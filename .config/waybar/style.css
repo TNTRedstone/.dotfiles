@@ -47,7 +47,7 @@ tooltip {
 	border-radius: 7px;
 	border-bottom: 2px solid @bg;
 	border-right: 2px solid @bg;
-	background-color: @yellow;
+	background-color: @blue;
 	color: @bg;
 }
 
@@ -87,7 +87,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background-color:@yellow;
+    background-color:@blue;
     color: @bg;
     /*color: @bg;*/
 
