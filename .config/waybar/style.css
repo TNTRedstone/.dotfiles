@@ -101,15 +101,6 @@ window#waybar {
   border: solid transparent;
 }
 
-#custom-gpu-util {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 7px;
-  background-color: @bg;
-  color: @fg;
-}
-
 #tray {
   margin: 5px 5px 2px 5px;
   border-radius: 7px;
@@ -119,59 +110,7 @@ window#waybar {
   color: @fg; 
 }
 
-#idle_inhibitor {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 12px;
-  border-radius: 7px;
-  background-color: @bg;
-  color: @fg;
-}
-
-
-#network {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 12px;
-  border-radius: 7px;
-  background-color: @bg;
-  color: @lavender;
-}
-
-#network.linked {
-  color: @peach;
-}
-#network.disconnected,
-#network.disabled {
-  color: @red;
-}
-
-#custom-subs {
-	color: @bg;
-	margin: 5px 5px 2px 5px;
-    padding-left: 10px;
-    padding-right: 12px;
-    border-radius: 7px;
-    background-color: @rosewater;
-
-}
-
-
-#custom-cliphist {
-	color: @peach;
-	margin: 5px 5px 2px 5px;
-    padding-left: 10px;
-    padding-right: 12px;
-    border-radius: 7px;
-    background-color: @bg;
-
-}
-
-#custom-gpu-temp,
-#cpu,
-#memory,
-#custom-clipboard,
-#temperature {
+#memory {
   margin: 5px 5px 2px 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -189,9 +128,6 @@ window#waybar {
   background-color: @bg;
 }
 
-#battery,
-#backlight,
-#bluetooth,
 #pulseaudio {
   margin-top: 5px;
   margin-bottom: 2px;
@@ -204,7 +140,7 @@ window#waybar {
 
 }
 
-#battery,
+#pulseaudio,
 #bluetooth {
 	margin-left: 0px;
 	margin-right: 5px;
@@ -244,4 +180,8 @@ window#waybar {
   border-radius: 7px;
   background-color: @bg;
   color: @peach;
+}
+
+#pulseaudio {
+  margin: 5px 5px 2px 5px;
 }
