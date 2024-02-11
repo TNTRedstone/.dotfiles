@@ -12,7 +12,7 @@ window#waybar {
 }
 
 #workspaces, #tray, #pulseaudio, #title, #clock, #window {
-	padding: 0 15px;
+	padding: 0 8px;
 	background-color: #3B4252;
 	margin: 5px 0px 5px 0px
 }
