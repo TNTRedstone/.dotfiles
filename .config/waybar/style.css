@@ -1,187 +1,35 @@
-@define-color bg #292c32;
-@define-color bg-hover #45494f;
-@define-color lbg #36393f;
-@define-color fg #d8d8d8;
-@define-color dark-fg #808080;
-@define-color border #45494f;
-@define-color red #cc6666;
-@define-color green #b8bb26;
-@define-color blue #82aaff;
-@define-color yellow #de935f;
-@define-color magenta #c792ea;
-@define-color cyan #a3be8c;
-@define-color orange #d8b36a;
-@define-color purple #b48ead;
-@define-color pink #c792ea;
-@define-color lavender #a3be8c;
-@define-color rosewater #cc6666;
-@define-color flamingo #cc6666;
-@define-color active-green #b8bb26;
-@define-color peach #d8b36a;
-@define-color gray2 #45494f;
-@define-color black4 #292c32;
-@define-color black3 #36393f;
-@define-color maroon #cc6666;
-
 * {
-  min-height: 0;
-  margin: 0;
-  padding: 0;
-  border-radius: 7px;
-  font-family: "JetBrains Mono Nerd Font";
-  font-size: 10pt;
-  font-weight: 700;
-  padding-bottom: 0px;
-}
-
-tooltip {
-  background: @bg;
-  border-radius: 7px;
-  border: 2px solid @border;
-}
-
-#window {
-	margin: 5px 5px 2px 5px;
-	padding-left: 10px;
-	padding-right: 7px;
-	border-radius: 7px;
-	border-bottom: 2px solid @bg;
-	border-right: 2px solid @bg;
-	background-color: @blue;
-	color: @bg;
-}
-
-window#waybar.empty #window {
-	background-color: transparent;
-	border-bottom: none;
-	border-right: none;
+    border-radius: 5;
 }
 
 window#waybar {
-  background-color:transparent;
-  color: @lavender;
-}
-
-/* Workspaces */
-@keyframes button_activate {
-	from { opacity: .3 }
-	to { opacity: 1.; }
-}
-
-#workspaces {
-  margin: 5px 5px 2px 5px;
-  border-radius: 7px;
-  padding: 1px;
-  background-color: @bg;
-  color: @bg;
-
+    background: rgba(0, 0, 0, 0);
+    color: white;
 }
 
 #workspaces button {
-  margin: 5px 2px 5px 2px;
-  border-radius: 5px;
-  padding-left: 1px;
-  padding-right: 1px;
-  background-color: @bg;
-  color: @fg;
+    padding: 0 5px;
 }
 
-#workspaces button.active {
-    background-color:@blue;
-    color: @bg;
-    /*color: @bg;*/
-
-}
-
-#workspaces button.urgent {
-	color: #F38BA8;
-}
-
-#workspaces button:hover {
-  border: solid transparent;
+#workspaces, #tray, #pulseaudio, #title, #clock, #window {
+	padding: 0 15px;
+	background-color: #3B4252;
+	margin: 5px 0px 5px 0px
 }
 
 #tray {
-  margin: 5px 5px 2px 5px;
-  border-radius: 7px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: @bg;
-  color: @fg; 
-}
-
-#memory {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 7px;
-  color: @fg;
-  background-color: @bg;
-}
-
-#custom-playerctl {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 7px;
-  color: @fg;
-  background-color: @bg;
+	margin: 5px 0px 5px 8px;
 }
 
 #pulseaudio {
-  margin-top: 5px;
-  margin-bottom: 2px;
-  color: @fg;
-  background-color: @bg;
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-
+	margin: 5px 8px 5px 0px;
 }
 
-#pulseaudio,
-#bluetooth {
-	margin-left: 0px;
-	margin-right: 5px;
-	padding-left: 7.5px;
-	padding-right: 10px;
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 0px;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
+#workspaces {
+	margin: 5px 8px 5px 8px
 }
 
-#backlight,
-#pulseaudio {
-	margin-right: 0px;
-	margin-left: 5px;
-	padding-left: 10px;
-  	padding-right: 7.5px;
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
-	border-top-left-radius: 7px;
-	border-bottom-left-radius: 7px;
-}
-
-#clock {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 7px;
-  color: @fg;
-  background-color: @bg;
-}
-
-#mode {
-  margin: 5px 5px 2px 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 7px;
-  background-color: @bg;
-  color: @peach;
-}
-
-#pulseaudio {
-  margin: 5px 5px 2px 5px;
+#window {
+	background-color: #88C0D0;
+	color: black;
 }
