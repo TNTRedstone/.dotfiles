@@ -10,15 +10,10 @@
     },
     "battery": {
 	"format": "<span>{icon}</span>  {capacity}%",
-	"format-critical": "<span foreground='#F38BA8'>{icon}</span>  {capacity}%",
 	"format-icons": ["", "", "", "", ""],
-	"format-time": "{H}h{M}m",
 	"format-charging": "<span foreground='#a6e3a1'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}% | {power} W",
 	"format-full": "<span foreground='#a6e3a1'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
-	"interval": 1,
-	"states": {
-	    "critical": 30
-	}
+	"interval": 1
     },
     "pulseaudio": {
 	"format": "<span foreground='#f26d78'>{icon}</span> {volume}%  {format_source}",
@@ -29,8 +24,6 @@
 	"format-source-muted": "<span foreground='#F38BA8'></span>",
 	"format-icons": {
 	  "headphone": "",
-	  "phone": "",
-	  "portable": "",
 	  "default": ["", "", ""]
 	}
     }
