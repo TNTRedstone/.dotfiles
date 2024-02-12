@@ -8,7 +8,16 @@ window#waybar {
 }
 
 #workspaces button {
+    background-color: #3B4252;
     padding: 0 5px;
+}
+
+#workspaces button:hover {
+    background-color: #4C566A;
+}
+
+#workspaces button.active {
+    background-color: #5E81AC;
 }
 
 #workspaces, #tray, #pulseaudio, #title, #clock, #window {
@@ -18,11 +27,11 @@ window#waybar {
 }
 
 #tray {
-	margin: 5px 0px 5px 8px;
+	margin: 5px 8px 5px 0px;
 }
 
 #pulseaudio {
-	margin: 5px 8px 5px 0px;
+	margin: 5px 8px 5px 8px;
 }
 
 #workspaces {

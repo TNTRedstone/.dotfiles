@@ -131,6 +131,10 @@ redo_dots() {
 	stow . --adopt
 }
 
+restart_waybar() {
+	pkill waybar
+	bash -c "waybar &" &
+}
 #Automatically do an ls after each cd
  cd ()
  {
