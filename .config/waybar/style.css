@@ -20,7 +20,7 @@ window#waybar {
     background-color: #5E81AC;
 }
 
-#workspaces, #tray, #pulseaudio, #title, #clock, #window {
+#workspaces, #tray, #pulseaudio, #title, #clock, #window, #battery {
 	padding: 0 8px;
 	background-color: #3B4252;
 	margin: 5px 0px 5px 0px

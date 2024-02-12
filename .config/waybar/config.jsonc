@@ -1,0 +1,37 @@
+{
+    "layer": "top",
+    "height": 40,
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["battery", "pulseaudio", "tray"],
+    "clock": {
+	"interval": 60,
+	"format": "<span foreground='#e6b673'> </span><span>{:%I:%M %a %d}</span>"
+    },
+    "battery": {
+	"format": "<span>{icon}</span>  {capacity}%",
+	"format-critical": "<span foreground='#F38BA8'>{icon}</span>  {capacity}%",
+	"format-icons": ["", "", "", "", ""],
+	"format-time": "{H}h{M}m",
+	"format-charging": "<span foreground='#a6e3a1'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}% | {power} W",
+	"format-full": "<span foreground='#a6e3a1'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
+	"interval": 1,
+	"states": {
+	    "critical": 30
+	}
+    },
+    "pulseaudio": {
+	"format": "<span foreground='#f26d78'>{icon}</span> {volume}%  {format_source}",
+	"format-bluetooth": "<span foreground='#95e6cb'>{icon}</span> {volume}%  {format_source}",
+	"format-bluetooth-muted": "<span foreground='#95e6cb'>󰖁</span>  {format_source}",
+	"format-muted": "<span foreground='#F38BA8'>󰖁</span>  {format_source}",
+	"format-source": "<span foreground='#fab387'></span> {volume}%",
+	"format-source-muted": "<span foreground='#F38BA8'></span>",
+	"format-icons": {
+	  "headphone": "",
+	  "phone": "",
+	  "portable": "",
+	  "default": ["", "", ""]
+	}
+    }
+}

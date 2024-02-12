@@ -126,6 +126,8 @@ mkcd() {
 }
 
 redo_dots() {
+	cd
+	rm -rf .dotfiles
 	git clone https://github.com/tntredstone/.dotfiles
 	cd .dotfiles
 	stow . --adopt
