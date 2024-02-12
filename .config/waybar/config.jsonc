@@ -6,21 +6,21 @@
     "modules-right": ["battery", "pulseaudio", "tray"],
     "clock": {
 	"interval": 60,
-	"format": "<span foreground='#e6b673'> </span><span>{:%I:%M %a %d}</span>"
+	"format": "<span foreground='#EBCB8B'> </span><span>{:%I:%M %a %d}</span>"
     },
     "battery": {
 	"format": "<span>{icon}</span>  {capacity}%",
 	"format-icons": ["", "", "", "", ""],
-	"format-charging": "<span foreground='#a6e3a1'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}% | {power} W",
-	"format-full": "<span foreground='#a6e3a1'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
+	"format-charging": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}% | {power} W",
+	"format-full": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
 	"interval": 1
     },
     "pulseaudio": {
-	"format": "<span foreground='#f26d78'>{icon}</span> {volume}%  {format_source}",
-	"format-bluetooth": "<span foreground='#95e6cb'>{icon}</span> {volume}%  {format_source}",
-	"format-bluetooth-muted": "<span foreground='#95e6cb'>󰖁</span>  {format_source}",
-	"format-muted": "<span foreground='#F38BA8'>󰖁</span>  {format_source}",
-	"format-source": "<span foreground='#fab387'></span> {volume}%",
+	"format": "<span foreground='#BF616A'>{icon}</span> {volume}%  {format_source}",
+	"format-bluetooth": "<span foreground='#8FBCBB'>{icon}</span> {volume}%  {format_source}",
+	"format-bluetooth-muted": "<span foreground='#8FBCBB'>󰖁</span>  {format_source}",
+	"format-muted": "<span foreground='#BF616A'>󰖁</span>  {format_source}",
+	"format-source": "<span foreground='#D08770'></span> {volume}%",
 	"format-source-muted": "<span foreground='#F38BA8'></span>",
 	"format-icons": {
 	  "headphone": "",
