@@ -18,6 +18,7 @@ window#waybar {
 
 #workspaces button.active {
     background-color: #5E81AC;
+    transition: background-color 1s;
 }
 
 #workspaces, #tray, #pulseaudio, #title, #clock, #window, #battery {
