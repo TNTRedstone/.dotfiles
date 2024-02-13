@@ -7,7 +7,7 @@ return {
         "MunifTanjim/nui.nvim",
     },
     config = function()
-        vim.keymap.set("n", "<C-l>", "<cmd>Neotree toggle<CR>", { noremap = true })
+        -- vim.keymap.set("n", "<C-l>", "<cmd>Neotree toggle<CR>", { noremap = true })
         require("neo-tree").setup({
             hijack_netrw_behavior = "open_current",
         })
