@@ -6,22 +6,47 @@
         "left": 1
       }
     },
+	"display": {
+        "separator": "   "
+    },
     "modules": [
         "title",
         "separator",
-        "host",
-        "os",
-        "kernel",
-        "wm",
-        "bios",
+		{
+			"type": "os",
+			"key": "",
+			"format": "{2} {8}"
+		},
+		{
+			"type": "kernel",
+			"key": ""
+		},
+        {
+            "type": "wm",
+            "key": ""
+        },
         "separator",
-        "cpu",
-        "gpu",
-        "memory",
+        {
+            "type": "cpu",
+            "key": ""
+        },
+		{
+            "type": "memory",
+            "key": "󰑭"
+        },
         "separator",
-        "terminal",
-        "terminalfont",
-        "shell",
+        {
+            "type": "terminal",
+            "key": ""
+        },
+        {
+            "type": "terminalfont",
+            "key": ""
+        },
+        {
+            "type": "shell",
+            "key": ""
+        },
         "break",
         "colors"
     ]
