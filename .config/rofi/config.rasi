@@ -3,8 +3,6 @@
 configuration {
   show-icons: true;
   icon-theme: "Tela circle nord dark";
-  display-drun: "";
-  display-window: "﩯 ";
-  display-combi: "  ";
+  display-drun: "";
 }
 @theme "themes/sidetab-nord.rasi"
