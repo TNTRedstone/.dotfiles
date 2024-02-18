@@ -64,11 +64,24 @@ alias vi='nvim'
 alias cat='bat'
 alias reb='sudo zypper dup; nix-env -u; sudo reboot;'
 alias shdn='sudo zypper dup; nix-env -u; shutdown now || systemctl poweroff -i'
-alias zyp='sudo zypper in -y'
 alias pym='python3 main.py'
 alias c='codium .'
 alias zel='zellij'
 alias zb="cd; clear;"
+alias restart_bg="killall wallpaper.sh; ~/.config/hypr/wallpaper.sh"
+
+# Arch aliases
+
+# first letter symbolizes aur or pacman
+# second letter symbolizes weather it is installing or removing
+# third letter symbolizes weather you are updating or not
+
+alias aiu = "yay -Syu"
+alias ai = "yay -S"
+alias ar = "yay -R"
+alias piu = "sudo pacman -Syu"
+alias pi = "sudo pacman -S"
+alias pr = "sudo pacman -R"
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1

@@ -30,5 +30,6 @@ return {
 		vim.keymap.set("n", "<leader>sh", require("telescope.builtin").help_tags, { desc = "[S]earch [H]elp" })
 		vim.keymap.set("n", "<leader>sg", require("telescope.builtin").live_grep, { desc = "[S]earch by [G]rep" })
 		vim.keymap.set("n", "<C-p>", require("telescope.builtin").find_files)
+		vim.keymap.set("n", "<C-b>", require("telescope.builtin").buffers)
 	end
 }
