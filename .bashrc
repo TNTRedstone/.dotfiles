@@ -68,7 +68,7 @@ alias pym='python3 main.py'
 alias c='codium .'
 alias zel='zellij'
 alias zb="cd; clear;"
-alias restart_bg="killall wallpaper.sh; ~/.config/hypr/wallpaper.sh"
+alias restart_bg="killall wallpaper.sh; bash -c '~/.config/hypr/wallpaper.sh &' &"
 
 # Arch aliases
 

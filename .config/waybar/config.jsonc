@@ -9,7 +9,7 @@
 	"format": "<span foreground='#EBCB8B'> </span><span>{:%I:%M %a %d}</span>"
     },
     "battery": {
-	"format": "<span>{icon}</span>  {capacity}%",
+	"format": "<span>{icon}</span> {capacity}%",
 	"format-icons": ["", "", "", "", ""],
 	"format-charging": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}%",
 	"format-full": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
