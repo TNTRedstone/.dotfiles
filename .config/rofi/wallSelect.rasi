@@ -88,8 +88,18 @@ element selected.normal {
 }
 
 element-icon {
-    size:                        26.8%;
+    size:                        33%;
+    cursor:                      inherit;
+    border-radius:               0px;
     background-color:            transparent;
     text-color:                  inherit;
-	border: 10px;
+}
+
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    padding:                     20px;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
 }
