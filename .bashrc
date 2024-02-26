@@ -76,12 +76,12 @@ alias restart_bg="killall wallpaper.sh; bash -c '~/.config/hypr/wallpaper.sh &' 
 # second letter symbolizes weather it is installing or removing
 # third letter symbolizes weather you are updating or not
 
-alias aiu = "yay -Syu"
-alias ai = "yay -S"
-alias ar = "yay -R"
-alias piu = "sudo pacman -Syu"
-alias pi = "sudo pacman -S"
-alias pr = "sudo pacman -R"
+alias aiu="yay -Syu"
+alias ai="yay -S"
+alias ar="yay -R"
+alias piu="sudo pacman -Syu"
+alias pi="sudo pacman -S"
+alias pr="sudo pacman -R"
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1
