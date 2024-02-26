@@ -18,6 +18,8 @@
 #             the wallpapers included in the theme you are in.
 
 
+export LC_ALL=C
+
 
 # Set some variables
 wall_dir="${HOME}/.dotfiles/wallpapers"
