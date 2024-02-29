@@ -1,8 +1,6 @@
 window {
-    font-family: monospace;
     font-size: 14pt;
-    color: #cdd6f4; /* text */
-    background-color: rgba(30, 30, 46, 0.5);
+    background-color: rgba(56,66,82,0.75);
 }
 
 button {
@@ -10,51 +8,51 @@ button {
     background-position: center;
     background-size: 25%;
     border: none;
-    background-color: rgba(30, 30, 46, 0);
     margin: 5px;
-    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out, background-color 0.2s ease-in-out;
+    color: #FFFFFF;
 }
 
 button:hover {
-    background-color: rgba(49, 50, 68, 0.1);
+    background-color: rgba(76,86,106,.2);
 }
 
 button:focus {
-    background-color: #cba6f7;
-    color: #1e1e2e;
+    background-color: #88C0D0;
 }
 
 #lock {
-    background-image: image(url("./lock.png"));
-}
-#lock:focus {
-    background-image: image(url("./lock-hover.png"));
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/lock.png"));
 }
 
 #logout {
-    background-image: image(url("./logout.png"));
-}
-#logout:focus {
-    background-image: image(url("./logout-hover.png"));
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/logout.png"));
 }
 
 #suspend {
-    background-image: image(url("./sleep.png"));
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/suspend.png"));
 }
-#suspend:focus {
-    background-image: image(url("./sleep-hover.png"));
+
+#hibernate {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/hibernate.png"));
 }
 
 #shutdown {
-    background-image: image(url("./power.png"));
-}
-#shutdown:focus {
-    background-image: image(url("./power-hover.png"));
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/shutdown.png"));
 }
 
 #reboot {
-    background-image: image(url("./restart.png"));
-}
-#reboot:focus {
-    background-image: image(url("./restart-hover.png"));
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/reboot.png"));
 }
