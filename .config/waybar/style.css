@@ -1,29 +1,28 @@
+@import url("../../.cache/wal/colors-waybar.css");
+
 * {
-    border-radius: 5;
+    border-radius: 5px;
+    color: @foreground;
 }
 
 window#waybar {
     background: rgba(0, 0, 0, 0);
-    color: white;
+    color: @foreground;
 }
 
 #workspaces button {
-    background-color: #3B4252;
+    background-color: @background;
     padding: 0 5px;
 }
 
-#workspaces button:hover {
-    background-color: #4C566A;
-}
-
 #workspaces button.active {
-    background-color: #5E81AC;
+    background-color: @color3;
     transition: background-color 1s;
 }
 
 #workspaces, #tray, #pulseaudio, #title, #clock, #window, #battery {
 	padding: 0 8px;
-	background-color: #3B4252;
+	background-color: @background;
 	margin: 5px 0px 5px 0px
 }
 
@@ -40,6 +39,6 @@ window#waybar {
 }
 
 #window {
-	background-color: #88C0D0;
+	background-color: @color3;
 	color: black;
 }

@@ -56,6 +56,8 @@ wall_selection=$(find "${wall_dir}" -type f \( -iname "*.jpg" -o -iname "*.jpeg"
 
 # Set the wallpaper
 [[ -n "$wall_selection" ]] || exit 1
+wal -i ${wall_dir}/${wall_selection} -s --saturate 0.5
+killall waybar; waybar &
 swaybg -i ${wall_dir}/${wall_selection} -m fill
 
 exit 0
