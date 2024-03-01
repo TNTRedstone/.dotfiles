@@ -6,7 +6,7 @@ swaybg -i $WALLPAPER -m fill &
 OLD_PID=$!
 while true; do
     sleep 300
-    WALLPAPER = $(find ~/.dotfiles/wallpapers/| shuf -n1)
+    WALLPAPER=$(find ~/.dotfiles/wallpapers/| shuf -n1)
     wal -i $WALLPAPER -s --saturate 0.5
     killall waybar; waybar &
     swaybg -i $WALLPAPER -m fill &

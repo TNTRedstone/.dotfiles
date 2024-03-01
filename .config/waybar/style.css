@@ -2,12 +2,10 @@
 
 * {
     border-radius: 5px;
-    color: @foreground;
 }
 
 window#waybar {
     background: rgba(0, 0, 0, 0);
-    color: @foreground;
 }
 
 #workspaces button {
@@ -23,7 +21,8 @@ window#waybar {
 #workspaces, #tray, #pulseaudio, #title, #clock, #window, #battery {
 	padding: 0 8px;
 	background-color: @background;
-	margin: 5px 0px 5px 0px
+	margin: 5px 0px 5px 0px;
+	color: @foreground;
 }
 
 #tray {
@@ -40,5 +39,4 @@ window#waybar {
 
 #window {
 	background-color: @color3;
-	color: black;
 }
