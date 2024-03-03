@@ -4,7 +4,12 @@ return {
 	priority = 1000,
 	config = function()
 		vim.cmd.colorscheme "catppuccin"
-		vim.cmd("highlight Normal guibg=none")
-		vim.cmd("highlight NonText guibg=none")
+		require("catppuccin").setup({
+			flavour = "mocha", -- latte, frappe, macchiato, mocha
+			transparent_background = true, -- disables setting the background color.
+		})
+
+		-- setup must be called before loading
+		vim.cmd.colorscheme "catppuccin"
 	end
 }
