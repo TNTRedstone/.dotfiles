@@ -1,8 +1,18 @@
-/** Basic config file **/
-
-configuration {
-  show-icons: true;
-  icon-theme: "Tela circle nord dark";
-  display-drun: "";
+configuration{
+    modi: "run,drun";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: " 﩯  Window";
+    display-Network: " 󰤨  Network";
+    sidebar-mode: true;
 }
-@theme "themes/sidetab-nord.rasi"
+
+@theme "catppuccin-mocha"
+

@@ -69,6 +69,7 @@ alias c='codium .'
 alias zel='zellij'
 alias zb="cd; clear;"
 alias restart_bg="killall wallpaper.sh; bash -c '~/.config/hypr/wallpaper.sh &' &"
+alias gc="git clone"
 
 # Arch aliases
 
@@ -129,7 +130,8 @@ alias ....='cd ../..'
 alias ......='cd ../../..'
 alias ........='cd ../../../..'
 
-alias ls='eza --icons -a --group-directories-first'
+alias ls='eza --icons -a'
+alias ll='ls -al'
 
 # Create and go to the directory
 mkcd() {
@@ -231,16 +233,6 @@ export WLR_NO_HARDWARE_CURSORS=1
 
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:"
 export PATH="$PATH:~/Downloads/flutter/bin"
-
-#Autojump
-
-if [ -f "/usr/share/autojump/autojump.sh" ]; then
-	. /usr/share/autojump/autojump.sh
-elif [ -f "/usr/share/autojump/autojump.bash" ]; then
-	. /usr/share/autojump/autojump.bash
-else
-	echo "can't found the autojump script"
-fi
 
 eval "$(starship init bash)"
 
