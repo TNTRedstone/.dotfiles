@@ -5,30 +5,30 @@
     "modules-center": ["clock"],
     "modules-right": ["battery", "pulseaudio", "tray"],
     "clock": {
-	"interval": 60,
-	"format": "<span foreground='#EBCB8B'> </span><span>{:%I:%M %a %d}</span>"
+        "interval": 60,
+        "format": "<span foreground='#EBCB8B'> </span><span>{:%I:%M %a %d}</span>"
     },
     "battery": {
-	"format": "<span>{icon}</span> {capacity}%",
-	"format-icons": ["", "", "", "", ""],
-	"format-charging": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}%",
-	"format-full": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
-	"interval": 1
+        "format": "<span>{icon}</span> {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "format-charging": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> {capacity}%",
+        "format-full": "<span foreground='#A3BE8C'>{icon}</span> <span foreground='#a6e3a1'></span> Charged",
+        "interval": 1
     },
     "pulseaudio": {
-	"format": "<span foreground='#BF616A'>{icon}</span> {volume}%  {format_source}",
-	"format-bluetooth": "<span foreground='#8FBCBB'>{icon}</span> {volume}%  {format_source}",
-	"format-bluetooth-muted": "<span foreground='#8FBCBB'>󰖁</span>  {format_source}",
-	"format-muted": "<span foreground='#BF616A'>󰖁</span>  {format_source}",
-	"format-source": "<span foreground='#D08770'></span> {volume}%",
-	"format-source-muted": "<span foreground='#F38BA8'></span>",
-	"format-icons": {
-	  "headphone": "",
-	  "default": ["", "", ""]
-	}
+        "format": "<span foreground='#BF616A'>{icon}</span> {volume}%  {format_source}",
+        "format-bluetooth": "<span foreground='#8FBCBB'>{icon}</span> {volume}%  {format_source}",
+        "format-bluetooth-muted": "<span foreground='#8FBCBB'>󰖁</span>  {format_source}",
+        "format-muted": "<span foreground='#BF616A'>󰖁</span>  {format_source}",
+        "format-source": "<span foreground='#D08770'></span> {volume}%",
+        "format-source-muted": "<span foreground='#F38BA8'></span>",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", "", ""]
+        }
     },
     "hyprland/workspaces": {
-     "on-scroll-up": "hyprctl dispatch workspace e+1",
-     "on-scroll-down": "hyprctl dispatch workspace e-1"
-}
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
+    }
 }
